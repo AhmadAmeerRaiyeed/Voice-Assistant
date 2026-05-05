@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="header">⚡ AI Assistant</div>
+
+  <!-- Jarvis Circle -->
+  <div class="jarvis-container">
+    <div class="circle"></div>
+    <div class="circle pulse"></div>
+  </div>
+
+  <!-- Waveform -->
+  <div class="waveform" id="waveform">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- Chat -->
+  <div id="output" class="chat"></div>
+
+  <!-- Button -->
+  <div class="input-area">
+    <button onclick="startListening()">🎤</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
